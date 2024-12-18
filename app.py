@@ -54,6 +54,6 @@ if st.button('Predict'):
 
     # 4: Display
     if result == 1:
-        st.header("Spam")
+        st.header("The Email is Spam")
     else:
-        st.header("Not Spam")
+        st.header("The Email is Not Spam")
